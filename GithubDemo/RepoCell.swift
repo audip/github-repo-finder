@@ -22,7 +22,7 @@ class RepoCell: UITableViewCell {
             self.ownerLabel.text = repo.ownerHandle
             self.forkLabel.text = "\(repo.forks!)"
             self.starLabel.text = "\(repo.stars!)"
-            self.descriptionLabel.text = repo.description
+            self.descriptionLabel.text = repo.repoDescription
             
             if let AvatarURL = repo.ownerAvatarURL {
                 self.avatarImageView.setImageWithURL(NSURL(string: AvatarURL)!)
