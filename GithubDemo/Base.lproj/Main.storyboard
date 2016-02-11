@@ -75,6 +75,14 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="avatarImageView" destination="cCC-Kf-JsB" id="4ld-Pq-Vjd"/>
+                                            <outlet property="descriptionLabel" destination="mda-Ma-oCZ" id="PnC-BB-S0A"/>
+                                            <outlet property="forkLabel" destination="yUo-H3-Lvn" id="JTC-KD-77V"/>
+                                            <outlet property="nameLabel" destination="6T8-qr-nH3" id="p3f-Ip-K2F"/>
+                                            <outlet property="ownerLabel" destination="bGg-km-U9A" id="yQ8-if-od2"/>
+                                            <outlet property="starLabel" destination="qtQ-IP-8yB" id="XvF-rD-Ktf"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
